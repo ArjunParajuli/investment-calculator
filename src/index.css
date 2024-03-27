@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(#303b37, #1a1f1d);
+  color: #e1eeeb;
+  min-height: 100vh;
+}
+
+#app{
+  margin: 0 auto;
+  width:40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#header{
+  margin: 1.5rem auto 1rem;
+  text-align: center;
+}
+
+#header img{
+  width: 100px;
+  height: 100px;
+}
+
+#inputs{
+  padding: 1.5rem 0;
+  background-color: rgb(10, 76, 10);
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.two-inputs{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.each-input{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.each-input label{
+  text-transform: uppercase;
+  font-size: medium;
+  margin-bottom: 7px;
+}
+
+.each-input input{
+  padding: 0.8rem;
+  border-radius: 3%;
+  background-color: rgb(10, 76, 10);
+}
+
+table{
+  margin: 1rem auto;
+}
+
+.table-row-head{
+  font-size: medium;
+  font-weight: 600;
+}
+
+.table-row-head td{
+  margin: 0 10px;
+}
+
+.table-row{
+  text-align: center;
+}
+
+.table-row-head td{
+  border: 2px solid black;
+  margin: 0 5px;
+}
+
+
+
